@@ -160,19 +160,20 @@ flowchart TD
 
 ---
 <h3>🎥 포메이션 드래그앤드롭</h3>
-<a href="https://raw.githubusercontent.com/ghtjdgg-hh/%ED%98%B8%EC%84%B1FC/main/hosungfc-formation.mp4" target="_blank">
+<a href="https://github.com/ghtjdgg-hh/호성FC/releases/download/v1.0/hosungfc-formation.mp4" target="_blank" rel="noopener noreferrer">
   포메이션 영상 새 탭에서 재생
 </a>
 
 <h3>🎥 라이벌 분석</h3>
-<a href="https://raw.githubusercontent.com/ghtjdgg-hh/%ED%98%B8%EC%84%B1FC/main/hosungfc-rival-map.mp4" target="_blank">
+<a href="https://github.com/ghtjdgg-hh/호성FC/releases/download/v1.0/hosungfc-rival-map.mp4" target="_blank" rel="noopener noreferrer">
   라이벌 맵 영상 새 탭에서 재생
 </a>
 
 <h3>🎥 AI 전술 추천</h3>
-<a href="https://raw.githubusercontent.com/ghtjdgg-hh/%ED%98%B8%EC%84%B1FC/main/hosungfc-ai-reco.mp4" target="_blank">
+<a href="https://github.com/ghtjdgg-hh/호성FC/releases/download/v1.0/hosungfc-ai-reco.mp4" target="_blank" rel="noopener noreferrer">
   AI 추천 영상 새 탭에서 재생
 </a>
+
 
 
 
