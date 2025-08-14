@@ -159,22 +159,25 @@ flowchart TD
 - 안정성: Ajax 표준 응답(JSON), 예외 메시지 규격화, 필드 검증
 
 ---
+## 🎥 워크플로우 영상
 
-## #3. 워크플로우 영상 (임베드)
-> 저장소 루트에 `assets/` 폴더를 만들고 mp4를 넣은 뒤, 아래처럼 임베드하세요.  
-> 상대경로 재생이 안 되면 “원본 보기/다운로드”의 **raw 링크**를 사용하세요.
-
-### 3-1) 선수·포메이션 드래그앤드롭
+### 1) 선수·포메이션 드래그앤드롭
 <video src="assets/hosungfc-formation.mp4" controls muted playsinline width="720"></video>  
 [원본 보기/다운로드](https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/assets/hosungfc-formation.mp4)
 
-### 3-2) 라이벌 분석 (Kakao Map)
+### 2) 라이벌 분석 (Kakao Map)
 <video src="assets/hosungfc-rival-map.mp4" controls muted playsinline width="720"></video>  
 [원본 보기/다운로드](https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/assets/hosungfc-rival-map.mp4)
 
-### 3-3) AI 전술 추천 결과
+### 3) AI 전술 추천 결과
 <video src="assets/hosungfc-ai-reco.mp4" controls muted playsinline width="720"></video>  
 [원본 보기/다운로드](https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/assets/hosungfc-ai-reco.mp4)
+
+## 🖼️ 시스템 이미지
+[![Architecture](assets/architecture.png)](https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/assets/architecture.png)
+[![Sequence](assets/sequence.png)](https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/assets/sequence.png)
+[![ERD](assets/erd.png)](https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/assets/erd.png)
+
 
 > GIF 미리보기를 함께 두고 싶다면 아래처럼 사용하세요.  
 > `assets/hosungfc-formation.gif` 파일을 추가하세요.  
