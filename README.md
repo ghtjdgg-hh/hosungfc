@@ -160,11 +160,75 @@ flowchart TD
 
 ---
 
-## #3. 워크플로우 영상
-- 선수/포메이션: 드래그앤드롭 배치/저장, 선수 검색/페이징  
-- 라이벌 분석: 마커와 지역 필터, 모달에서 전적과 전술 및 예상 승률 확인  
-- AI 전술 추천: 규칙 결과 + HF 요약 설명 병합  
-> 영상은 `<video src=".../raw/main/assets/xxx.mp4" controls>` 형식 권장
+## #3. 워크플로우 영상 (임베드)
+> 저장소 루트에 `assets/` 폴더를 만들고 mp4를 넣은 뒤, 아래처럼 임베드하세요.  
+> 상대경로 재생이 안 되면 “원본 보기/다운로드”의 **raw 링크**를 사용하세요.
+
+### 3-1) 선수·포메이션 드래그앤드롭
+<video src="assets/hosungfc-formation.mp4" controls muted playsinline width="720"></video>  
+[원본 보기/다운로드](https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/assets/hosungfc-formation.mp4)
+
+### 3-2) 라이벌 분석 (Kakao Map)
+<video src="assets/hosungfc-rival-map.mp4" controls muted playsinline width="720"></video>  
+[원본 보기/다운로드](https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/assets/hosungfc-rival-map.mp4)
+
+### 3-3) AI 전술 추천 결과
+<video src="assets/hosungfc-ai-reco.mp4" controls muted playsinline width="720"></video>  
+[원본 보기/다운로드](https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/assets/hosungfc-ai-reco.mp4)
+
+> GIF 미리보기를 함께 두고 싶다면 아래처럼 사용하세요.  
+> `assets/hosungfc-formation.gif` 파일을 추가하세요.  
+> ![formation preview](assets/hosungfc-formation.gif)
+
+---
+
+## 작성자용: 동영상 업로드/임베드 가이드
+<details>
+<summary>펼치기</summary>
+
+### A) 저장소에 직접 넣기 (간단, 100MB 이하 권장)
+1. 저장소 루트에 `assets/` 폴더 생성  
+2. `hosungfc-formation.mp4` 등 영상을 업로드  
+3. README에서 상대경로로 임베드:  
+   ```html
+   <video src="assets/hosungfc-formation.mp4" controls muted playsinline width="720"></video>
+   ```
+4. 재생이 안 되면 **raw 링크** 사용:  
+   ```html
+   <video src="https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/assets/hosungfc-formation.mp4" controls muted playsinline width="720"></video>
+   ```
+
+### B) GitHub Releases 에 올리기 (안정적 배포)
+- Releases 탭 → New release → 영상 업로드(assets)  
+- 업로드된 파일의 URL을 `<video src="...">` 에 사용
+
+### C) Git LFS 사용 (100MB 초과 파일)
+```bash
+git lfs install
+git lfs track "*.mp4"
+git add .gitattributes
+git add assets/hosungfc-*.mp4
+git commit -m "Add videos with Git LFS"
+git push origin main
+```
+> 팀 저장소 용량 정책을 확인하세요.
+
+### D) 인코딩/압축 권장(ffmpeg 예시)
+```bash
+# 720p, H.264 + AAC, 크기 절감
+ffmpeg -i input.mov -vf "scale=-2:720" -c:v libx264 -preset slow -crf 23 -c:a aac -b:a 128k hosungfc-formation.mp4
+
+# 움직임 많은 화면은 CRF 24~28로 조절
+ffmpeg -i input.mp4 -c:v libx264 -crf 26 -preset medium -c:a aac -b:a 128k output.mp4
+```
+
+### E) HTML5 `<video>` 옵션 팁
+- `controls`: 플레이어 UI 표시  
+- `muted`: 자동재생 정책에 유리  
+- `playsinline`: iOS에서 전체화면 전환 방지  
+- `poster="assets/thumb.png"`: 썸네일 지정
+
+</details>
 
 ---
 
