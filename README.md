@@ -79,6 +79,39 @@ JSP + Java(서블릿/DAO) + Oracle 기반의 **팀 운영/전술 추천 관리�
 
 ### 시스템 다이어그램
 ![시스템 아키텍처](assets/architecture.png)
+graph LR
+  %% 스타일
+  classDef ext fill:#fffbe6,stroke:#f2c744,color:#333
+  classDef svc fill:#e8f4ff,stroke:#4a90e2,color:#0b3a66
+  classDef db  fill:#eef9f0,stroke:#3fbf6f,color:#0d5132
+  classDef ui  fill:#f5f5f5,stroke:#999,color:#333
+
+  subgraph Client["클라이언트 (브라우저)"]
+    UI[사용자 UI\nJSP + HTML/CSS + JS\n(jQuery/Vanilla, Drag&Drop)]:::ui
+    MAP[Kakao Map JS SDK\n(지도/마커/모달)]:::ext
+  end
+
+  subgraph App["웹 애플리케이션 (Tomcat / JSP · Servlet)"]
+    CTRL[Controller/Servlet\n/players, /formations,\n/rivals, /ai/recommend]:::svc
+    SRV[Service\n(유효성검사·트랜잭션·오케스트레이션)]:::svc
+    RULES[규칙 엔진\n(포지션/스타일/상대전술 매칭)]:::svc
+    DAO[DAO or MyBatis Mapper]:::svc
+  end
+
+  DB[(Oracle DB\nplayer, formation,\nformation_position, rival_club,\nregion, player_analysis,\nplayer_tactic_recommendation)]:::db
+  HF[(🤗 Hugging Face\nInference API\n(GPT-2 계열))]:::ext
+  LOG[(로깅/모니터링)]:::ext
+  AUTH[(인증/권한 필터·세션)\n*선택 적용*]:::ext
+
+  %% 연결
+  UI -- "AJAX (JSON)\nCRUD/조회/추천요청" --> CTRL
+  MAP -. "프론트에서 직접 사용" .- UI
+  CTRL --> SRV --> DAO --> DB
+  SRV --> RULES
+  SRV -. "요약·보완 요청(옵션)" .-> HF
+  CTRL -. "세션/필터" .- AUTH
+  App -. "애플리케이션 로그/에러" .- LOG
+
 ![시스템 흐름도](assets/sequence.png)
 
 **AI 추천 흐름(요약)**  
