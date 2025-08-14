@@ -76,43 +76,39 @@ JSP + Java(서블릿/DAO) + Oracle 기반의 **팀 운영/전술 추천 관리�
 - **웹 서버 (Tomcat)**: JSP/Servlet 라우팅, Ajax 처리  
 - **비즈니스 로직**: 규칙 엔진(내장) + HF Inference API 호출/결합  
 - **데이터베이스**: 선수/포메이션/라이벌/분석 테이블 저장
+## 2. 시스템 아키텍처 예시
+```markdown
+```mermaid
 graph LR
-  %% 스타일
-  classDef ui  fill:#f5f5f5,stroke:#888,color:#222
-  classDef svc fill:#e8f4ff,stroke:#4a90e2,color:#0b3a66
-  classDef db  fill:#eef9f0,stroke:#3fbf6f,color:#0d5132
-  classDef ext fill:#fffbe6,stroke:#f2c744,color:#333
+    %% 스타일
+    classDef ui fill:#f5f5f5,stroke:#888,color:#222
+    classDef svc fill:#e8f4ff,stroke:#4a90e2,color:#0b3a66
+    classDef db fill:#eef9f0,stroke:#3fbf6f,color:#0d5132
+    classDef ext fill:#fffbe6,stroke:#f2c744,color:#333
 
-  %% 클라이언트
-  subgraph Client["클라이언트 (브라우저)"]
-    UI[JSP · HTML/CSS/JS<br/>jQuery/Vanilla · Drag&Drop]:::ui
-    MAP[Kakao Map JS SDK<br/>(지도/마커/모달)]:::ext
-  end
+    subgraph Client["클라이언트 (브라우저)"]
+        UI[사용자 UI<br>JSP/HTML/CSS/JS<br>Drag&Drop 포메이션]:::ui
+        MAP[Kakao Map JS SDK]:::ext
+    end
 
-  %% 앱 서버
-  subgraph App["웹 애플리케이션 (Tomcat / JSP·Servlet)"]
-    F[Filter/Interceptor<br/>세션·권한검사]:::svc
-    CTRL[Controller/Servlet<br/>/login · /players · /formations ·<br/>/rivals · /ai/recommend]:::svc
-    SRV[Service<br/>검증·트랜잭션·오케스트레이션]:::svc
-    RULES[규칙 엔진<br/>포지션/스타일/상대전술 매칭]:::svc
-    DAO[DAO / MyBatis Mapper]:::svc
-  end
+    subgraph App["웹 애플리케이션 (Tomcat/JSP·Servlet)"]
+        CTRL[Controller/Servlet]:::svc
+        SRV[Service]:::svc
+        RULES[규칙 엔진]:::svc
+        DAO[DAO/MyBatis Mapper]:::svc
+    end
 
-  %% 리소스
-  DB[(Oracle DB)<br/>player · formation · formation_position ·<br/>rival_club · region · player_analysis ·<br/>player_tactic_recommendation]:::db
-  HF[(🤗 Hugging Face Inference API<br/>(GPT-2 계열, 코멘트/요약))]:::ext
-  LOG[(로깅/모니터링)]:::ext
+    DB[(Oracle DB)]:::db
+    HF[(🤗 Hugging Face Inference API)]:::ext
 
-  %% 연결
-  UI -- "AJAX(JSON) CRUD/조회/추천" --> F --> CTRL
-  UI -. "프론트에서 직접 사용" .- MAP
-  CTRL --> SRV --> DAO --> DB
-  SRV --> RULES
-  SRV -. "요약·보완(옵션)" .-> HF
-  App -. "애플리케이션 로그/에러" .- LOG
+    UI --> CTRL --> SRV --> DAO --> DB
+    SRV --> RULES
+    SRV --> HF
+    UI -.-> MAP
+rust
+복사
+편집
 
-
-![시스템 흐름도](assets/sequence.png)
 
 **AI 추천 흐름(요약)**  
 1) DB에서 선수 스타일/강점/약점 + 상대 전술 조회  
