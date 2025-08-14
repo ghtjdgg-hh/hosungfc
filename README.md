@@ -161,9 +161,9 @@ flowchart TD
 ---
 ## 🎥 데모 영상 모음
 
-- [포메이션 드래그앤드롭](https://ghtjdgg-hh.github.io/hosungfc/formation.html)
-- [라이벌 분석](https://ghtjdgg-hh.github.io/hosungfc/rival-map.html)
-- [AI 전술 추천](https://ghtjdgg-hh.github.io/hosungfc/ai-reco.html)
+- [포메이션 드래그앤드롭](https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/hosungfc-formation.mp4)
+- [라이벌 분석](https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/hosungfc-rival-map.mp4)
+- [AI 전술 추천](https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/hosungfc-ai-reco.mp4)
 
 
 
