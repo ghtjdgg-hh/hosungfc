@@ -163,15 +163,15 @@ flowchart TD
 
 ### 1) 선수·포메이션 드래그앤드롭
 <video src="assets/hosungfc-formation.mp4" controls muted playsinline width="720"></video>  
-[원본 보기/다운로드](https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/assets/hosungfc-formation.mp4)
+[원본 보기/다운로드](https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/hosungfc-formation.mp4)
 
 ### 2) 라이벌 분석 (Kakao Map)
 <video src="assets/hosungfc-rival-map.mp4" controls muted playsinline width="720"></video>  
-[원본 보기/다운로드](https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/assets/hosungfc-rival-map.mp4)
+[원본 보기/다운로드](https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/hosungfc-rival-map.mp4)
 
 ### 3) AI 전술 추천 결과
 <video src="assets/hosungfc-ai-reco.mp4" controls muted playsinline width="720"></video>  
-[원본 보기/다운로드](https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/assets/hosungfc-ai-reco.mp4)
+[원본 보기/다운로드](https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/hosungfc-ai-reco.mp4)
 
 ## 🖼️ 시스템 이미지
 [![Architecture](assets/architecture.png)](https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/assets/architecture.png)
