@@ -161,20 +161,18 @@ flowchart TD
 ---
 ## 🎥 워크플로우 영상
 
-### 1) 선수·포메이션 드래그앤드롭
-<a href="https://github.com/ghtjdgg-hh/호성FC/blob/main/hosungfc-formation.mp4?raw=1" target="_blank">
-  hosungfc-formation.mp4 바로 보기
-</a>
+<h3>🎥 포메이션 드래그앤드롭</h3>
+<a href="hosungfc-formation.mp4?raw=1" target="_blank">로그인 영상 열기</a>
+<video src="hosungfc-formation.mp4?raw=1" controls muted playsinline width="720" preload="metadata"></video>
 
-### 2) 라이벌 분석 (Kakao Map)
-<a href="https://github.com/ghtjdgg-hh/호성FC/blob/main/hosungfc-rival-map.mp4?raw=1" target="_blank">
-  hosungfc-rival-map.mp4 바로 보기
-</a>
+<h3>🎥 라이벌 분석</h3>
+<a href="hosungfc-rival-map.mp4?raw=1" target="_blank">라이벌 맵 영상 열기</a>
+<video src="hosungfc-rival-map.mp4?raw=1" controls muted playsinline width="720" preload="metadata"></video>
 
-### 3) AI 전술 추천 결과
-<a href="https://github.com/ghtjdgg-hh/호성FC/blob/main/hosungfc-ai-reco.mp4?raw=1" target="_blank">
-  hosungfc-ai-reco.mp4 바로 보기
-</a>
+<h3>🎥 AI 전술 추천</h3>
+<a href="hosungfc-ai-reco.mp4?raw=1" target="_blank">AI 추천 영상 열기</a>
+<video src="hosungfc-ai-reco.mp4?raw=1" controls muted playsinline width="720" preload="metadata"></video>
+
 
 
 
