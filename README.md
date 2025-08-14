@@ -162,16 +162,13 @@ flowchart TD
 ## 🎥 워크플로우 영상
 
 <h3>🎥 포메이션 드래그앤드롭</h3>
-<a href="hosungfc-formation.mp4?raw=1" target="_blank">로그인 영상 열기</a>
-<video src="hosungfc-formation.mp4?raw=1" controls muted playsinline width="720" preload="metadata"></video>
+<video src="./hosungfc-formation.mp4" controls muted playsinline width="720" preload="metadata"></video>
 
 <h3>🎥 라이벌 분석</h3>
-<a href="hosungfc-rival-map.mp4?raw=1" target="_blank">라이벌 맵 영상 열기</a>
-<video src="hosungfc-rival-map.mp4?raw=1" controls muted playsinline width="720" preload="metadata"></video>
+<video src="./hosungfc-rival-map.mp4" controls muted playsinline width="720" preload="metadata"></video>
 
 <h3>🎥 AI 전술 추천</h3>
-<a href="hosungfc-ai-reco.mp4?raw=1" target="_blank">AI 추천 영상 열기</a>
-<video src="hosungfc-ai-reco.mp4?raw=1" controls muted playsinline width="720" preload="metadata"></video>
+<video src="./hosungfc-ai-reco.mp4" controls muted playsinline width="720" preload="metadata"></video>
 
 
 
