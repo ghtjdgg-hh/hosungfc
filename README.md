@@ -159,21 +159,20 @@ flowchart TD
 - 안정성: Ajax 표준 응답(JSON), 예외 메시지 규격화, 필드 검증
 
 ---
-## 🎥 워크플로우 영상
 
 ## 🎥 워크플로우 영상
 
 ### 1) 선수·포메이션 드래그앤드롭
 <video src="https://ghtjdgg-hh.github.io/hosungfc/assets/hosungfc-formation.mp4" controls muted playsinline width="720"></video>  
-(https://ghtjdgg-hh.github.io/hosungfc/assets/hosungfc-formation.mp4)
+(https://ghtjdgg-hh.github.io/hosungfc/hosungfc-formation.mp4)
 
 ### 2) 라이벌 분석 (Kakao Map)
 <video src="https://ghtjdgg-hh.github.io/hosungfc/assets/hosungfc-rival-map.mp4" controls muted playsinline width="720"></video>  
-(https://ghtjdgg-hh.github.io/hosungfc/assets/hosungfc-rival-map.mp4)
+(https://ghtjdgg-hh.github.io/hosungfc/hosungfc-rival-map.mp4)
 
 ### 3) AI 전술 추천 결과
 <video src="https://ghtjdgg-hh.github.io/hosungfc/assets/hosungfc-ai-reco.mp4" controls muted playsinline width="720"></video>  
-(https://ghtjdgg-hh.github.io/hosungfc/assets/hosungfc-ai-reco.mp4)
+(https://ghtjdgg-hh.github.io/hosungfc/hosungfc-ai-reco.mp4)
 
 ## 🖼️ 시스템 이미지
 [![Architecture](assets/architecture.png)](https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/assets/architecture.png)
