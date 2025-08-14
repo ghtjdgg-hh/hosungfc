@@ -161,20 +161,21 @@ flowchart TD
 ---
 ## 🎥 워크플로우 영상
 
- 🎥 1) 선수·포메이션 드래그앤드롭 
+<!-- 🎥 1) 선수·포메이션 드래그앤드롭 -->
 <video src="https://raw.githubusercontent.com/ghtjdgg-hh/%ED%98%B8%EC%84%B1FC/main/hosungfc-formation.mp4"
        controls muted playsinline width="720"></video>
 [바로 재생](https://raw.githubusercontent.com/ghtjdgg-hh/%ED%98%B8%EC%84%B1FC/main/hosungfc-formation.mp4)
 
- 🎥 2) 라이벌 분석 (Kakao Map) 
+<!-- 🎥 2) 라이벌 분석 (Kakao Map) -->
 <video src="https://raw.githubusercontent.com/ghtjdgg-hh/%ED%98%B8%EC%84%B1FC/main/hosungfc-rival-map.mp4"
        controls muted playsinline width="720"></video>
 [바로 재생](https://raw.githubusercontent.com/ghtjdgg-hh/%ED%98%B8%EC%84%B1FC/main/hosungfc-rival-map.mp4)
 
- 🎥 3) AI 전술 추천 결과 
+<!-- 🎥 3) AI 전술 추천 결과 -->
 <video src="https://raw.githubusercontent.com/ghtjdgg-hh/%ED%98%B8%EC%84%B1FC/main/hosungfc-ai-reco.mp4"
        controls muted playsinline width="720"></video>
 [바로 재생](https://raw.githubusercontent.com/ghtjdgg-hh/%ED%98%B8%EC%84%B1FC/main/hosungfc-ai-reco.mp4)
+
 
 
 ## 🖼️ 시스템 이미지
