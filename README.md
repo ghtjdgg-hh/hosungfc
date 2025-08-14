@@ -164,7 +164,7 @@ flowchart TD
 <!-- 🎥 1) 선수·포메이션 드래그앤드롭 -->
 <video src="https://raw.githubusercontent.com/ghtjdgg-hh/%ED%98%B8%EC%84%B1FC/main/hosungfc-formation.mp4"
        controls muted playsinline width="720"></video>
-[바로 재생](https://raw.githubusercontent.com/ghtjdgg-hh/%ED%98%B8%EC%84%B1FC/main/hosungfc-formation.mp4)
+[바로 재생]https://github.com/user/repo/releases/download/v1.0/hosungfc-login.mp4
 
 <!-- 🎥 2) 라이벌 분석 (Kakao Map) -->
 <video src="https://raw.githubusercontent.com/ghtjdgg-hh/%ED%98%B8%EC%84%B1FC/main/hosungfc-rival-map.mp4"
