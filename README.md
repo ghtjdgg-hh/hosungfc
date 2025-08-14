@@ -163,7 +163,7 @@ flowchart TD
 ## 🎥 워크플로우 영상
 
 ### 1) 선수·포메이션 드래그앤드롭
-<video src="https://ghtjdgg-hh.github.io/hosungfc/assets/hosungfc-formation.mp4" controls muted playsinline width="720"></video>  
+<video src="https://ghtjdgg-hh.github.io/hosungfc/hosungfc-formation.mp4" controls muted playsinline width="720"></video>  
 (https://ghtjdgg-hh.github.io/hosungfc/hosungfc-formation.mp4)
 
 ### 2) 라이벌 분석 (Kakao Map)
