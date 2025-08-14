@@ -161,20 +161,15 @@ flowchart TD
 ---
 ## 🎥 데모 영상 모음
 
-### 1) 포메이션 드래그앤드롭
-<a href="https://github.com/ghtjdgg-hh/hosungfc/blob/main/hosungfc-formation.mp4?raw=1" target="_blank">
-  ▶ 포메이션 영상 새 탭에서 재생
-</a>
+<h3>🎥 포메이션 드래그앤드롭</h3>
+<video src="./hosungfc-formation.mp4" controls playsinline preload="metadata" width="720"></video>
 
-### 2) 라이벌 분석 (Kakao Map)
-<a href="https://github.com/ghtjdgg-hh/hosungfc/blob/main/hosungfc-rival-map.mp4?raw=1" target="_blank">
-  ▶ 라이벌 맵 영상 새 탭에서 재생
-</a>
+<h3>🎥 라이벌 분석</h3>
+<video src="./hosungfc-rival-map.mp4" controls playsinline preload="metadata" width="720"></video>
 
-### 3) AI 전술 추천 결과
-<a href="https://github.com/ghtjdgg-hh/hosungfc/blob/main/hosungfc-ai-reco.mp4?raw=1" target="_blank">
-  ▶ AI 추천 영상 새 탭에서 재생
-</a>
+<h3>🎥 AI 전술 추천</h3>
+<video src="./hosungfc-ai-reco.mp4" controls playsinline preload="metadata" width="720"></video>
+
 
 
 
