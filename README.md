@@ -22,7 +22,7 @@ JSP + Java(서블릿/DAO) + Oracle 기반의 **팀 운영/전술 추천 관리�
 - **뷰엔진**: JSP (JavaServer Pages), HTML5  
 - **템플릿 태그**: JSTL, EL  
 - **스타일링**: Bootstrap, CSS3  
-- **JavaScript**: Vanilla JS (필드 드래그&드롭), jQuery 일부  
+- **JavaScript**: Vanilla JS (필드 드래그&드롭), jQuery 
 - **지도**: Kakao Map JavaScript API
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -78,7 +78,6 @@ JSP + Java(서블릿/DAO) + Oracle 기반의 **팀 운영/전술 추천 관리�
 - **데이터베이스**: 선수/포메이션/라이벌/분석 테이블 저장
 
 ### 시스템 다이어그램
-(이미지 파일을 레포 `assets/`에 넣고 아래 경로를 교체하세요)
 ![시스템 아키텍처](assets/architecture.png)
 ![시스템 흐름도](assets/sequence.png)
 
@@ -103,7 +102,7 @@ JSP + Java(서블릿/DAO) + Oracle 기반의 **팀 운영/전술 추천 관리�
 ---
 
 ## #3. 워크플로우 영상
-각 기능별 워크플로우 영상은 아래에 첨부합니다. (URL만 교체)
+각 기능별 워크플로우 영상은 아래에 첨부합니다. 
 
 ### 1. 선수/포메이션
 드래그&드롭 포메이션 배치, 저장/수정, 선수 검색/페이징  
