@@ -183,18 +183,6 @@ https://github.com/user-attachments/assets/cc589c40-fab3-468e-8299-c52bb9ed4fe4
 
 
 
-
-
-
-
-
-
-## 🖼️ 시스템 이미지
-[![Architecture](assets/architecture.png)](https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/assets/architecture.png)
-[![Sequence](assets/sequence.png)](https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/assets/sequence.png)
-[![ERD](assets/erd.png)](https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/assets/erd.png)
-
-
 > GIF 미리보기를 함께 두고 싶다면 아래처럼 사용하세요.  
 > `assets/hosungfc-formation.gif` 파일을 추가하세요.  
 > ![formation preview](assets/hosungfc-formation.gif)
