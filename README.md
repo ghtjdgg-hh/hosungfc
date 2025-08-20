@@ -162,13 +162,21 @@ flowchart TD
 ## 🎥 데모 영상 모음
 
 ### 🎥 포메이션 드래그앤드롭
-[영상 보기](https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/hosungfc-formation.mp4)
+
+
+https://github.com/user-attachments/assets/ae53f1b9-1327-42b7-b469-e77eb58271b1
+
+
 
 ### 🎥 라이벌 분석
-[영상 보기](https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/hosungfc-rival-map.mp4)
+
 
 ### 🎥 AI 전술 추천
-[영상 보기](https://raw.githubusercontent.com/ghtjdgg-hh/hosungfc/main/hosungfc-ai-reco.mp4)
+
+
+
+https://github.com/user-attachments/assets/cc589c40-fab3-468e-8299-c52bb9ed4fe4
+
 
 
 
