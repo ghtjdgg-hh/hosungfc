@@ -171,6 +171,10 @@ https://github.com/user-attachments/assets/ae53f1b9-1327-42b7-b469-e77eb58271b1
 ### 🎥 라이벌 분석
 
 
+https://github.com/user-attachments/assets/a0a76b56-2a4f-4289-9a9c-b6896536b666
+
+
+
 ### 🎥 AI 전술 추천
 
 
